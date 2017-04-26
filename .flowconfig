@@ -1,0 +1,6 @@
+[include]
+./src
+[ignore]
+./public
+[libs]
+./node_modules

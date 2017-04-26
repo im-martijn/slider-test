@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    position: relative;
+}
+
+.col {
+    flex-basis: 25%;
+    display: block;
+    border: 1px solid coral;
+    margin-right: 30px;
+    min-width: 150px;
+}
+
+.col:last-child {
+    margin: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    display: block;
+    background: yellow;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
